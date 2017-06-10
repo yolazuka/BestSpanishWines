@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Best Spanish Wineries</string>
+
+    <!-- GEOGRAPHICAL AREAS OF THE WINERIES IN SPAIN -->
+
+    <string name="region_north">North</string>
+    <string name="region_south">South</string>
+    <string name="region_center">Center</string>
+    <string name="region_southwest">Southwest</string>
+
+    <!-- NAMES OF THE WINERIES -->
+
+    <string name="winery_one">Gorrondona</string>
+    <string name="winery_two">Martin Codax</string>
+    <string name="winery_three">Priorato de Razamonde</string>
+    <string name="winery_four">Mar de Frades</string>
+    <string name="winery_five">Antigua Casa de Guardia</string>
+    <string name="winery_six">La Manzanilla de Cadiz</string>
+    <string name="winery_seven">El Maestro Sierra</string>
+    <string name="winery_eight">Emilio Lustao</string>
+    <string name="winery_nine">Emina Ribera del Duero</string>
+    <string name="winery_ten">Reina de Castilla</string>
+    <string name="winery_eleven">Bodegas Pirineos</string>
+    <string name="winery_twelve">Muga</string>
+    <string name="winery_thirteen">Can Marles</string>
+    <string name="winery_fourteen">Trossos del Priorat</string>
+    <string name="winery_fiveteen">Vinyes Domenech</string>
+    <string name="winery_sixteen">Celler Piñol</string>
+
+    <!-- NAMES OF THE WINE SPECIALITY -->
+
+    <string name="winename_one">Specialty Wine: \n Txacoli</string>
+    <string name="winename_two">Specialty Wine: \n Albariño</string>
+    <string name="winename_three">Specialty Wine: \n Ribeiro</string>
+    <string name="winename_four">Specialty Wine: \n Rias Baixas</string>
+    <string name="winename_five">Specialty Wine: \n Rebujito</string>
+    <string name="winename_six">Specialty Wine: \n Manzanilla</string>
+    <string name="winename_seven">Specialty Wine: \n Palo Cortado</string>
+    <string name="winename_eight">Specialty Wine: \n Jerez</string>
+    <string name="winename_nine">Specialty Wine: \n Ribera de Duero</string>
+    <string name="winename_ten">Specialty Wine: \n Rueda Verdejo</string>
+    <string name="winename_eleven">Specialty Wine: \n Somontano</string>
+    <string name="winename_twelve">Specialty Wine: \n Jumilla</string>
+    <string name="winename_thirteen">Specialty Wine: \n Cava</string>
+    <string name="winename_fourteen">Specialty Wine: \n Priorat</string>
+    <string name="winename_fiveteen">Specialty Wine: \n Monsant</string>
+    <string name="winename_sixteen">Specialty Wine: \n Terra Alta</string>
+
+    <!-- DESCRIPTION OF THE WINERY  -->
+
+    <string name="description_one">Best White wine Ever</string>
+    <string name="description_two">Awards in several Wines, dont miss it</string>
+    <string name="description_three">One of the oldest wineries in Spain. Pure tradition</string>
+    <string name="description_four">The grapes that grew next to the see,just a wine lover must</string>
+    <string name="description_five">This winery is famous by this fabulous type of wine</string>
+    <string name="description_six">Specialist in really old and strong taste wines</string>
+    <string name="description_seven">History and tradition have created these excellent wines</string>
+    <string name="description_eight">Innovative wine creations, but still the old traditions essence</string>
+    <string name="description_nine">This special grape, Ribera del Duero is formidably transformed into amazing wine. Many international awards.</string>
+    <string name="description_ten">Framed in a wonderful landspace, this winery is full of charm and history</string>
+    <string name="description_eleven">vineyards growing on the Pirynees Slopes, wonderful scene that you can not miss</string>
+    <string name="description_twelve">A high temperatures contrast gives these grapes a unique bouquet</string>
+    <string name="description_thirteen">Sparkly and golden wine into the Catalonian traditions. Just Luxury</string>
+    <string name="description_fourteen">One of the best and internationally recognized red wine in Spain</string>
+    <string name="description_fiveteen">Almost legendary winery, with awesome awarded red wine and incredible landspaces</string>
+    <string name="description_sixteen">Simply wonderful and delicious wine, moderate price but excellent quality. It is worth to visit it</string>
+
+    <!-- GEOGRAPHICAL AREAS OF THE WINERIES -->
+
+    <string name="area_one">Vasque Country</string>
+    <string name="area_two">Galicia</string>
+    <string name="area_three">Galicia</string>
+    <string name="area_four">Galicia</string>
+    <string name="area_five">Andalucia</string>
+    <string name="area_six">Andalucia</string>
+    <string name="area_seven">Andalucia</string>
+    <string name="area_eight">Andalucia</string>
+    <string name="area_nine">Castilla Leon</string>
+    <string name="area_ten">Castilla Leon </string>
+    <string name="area_eleven">Aragon</string>
+    <string name="area_twelve">La Rioja</string>
+    <string name="area_thirteen">Catalonia</string>
+    <string name="area_fourteen">Catalonia</string>
+    <string name="area_fiveteen">Catalonia</string>
+    <string name="area_sixteen">Catalonia</string>
+
+    <!-- WINERY LOCATIONS ( ADDRESSES ) -->
+
+    <string name="location_one">Gibelorratzagako San Pelaio, 1, Caserio Gorrondona 48130 Bakio, Bizkaia</string>
+    <string name="location_two">Burgans 91,36633 Vilariño, Cambados, Pontevedra</string>
+    <string name="location_three">LG Razamonde, 32459 Cenlle, Ourense</string>
+    <string name="location_four">Arosa, 16, 36637 Meis, Pontevedra</string>
+    <string name="location_five">Ctra. Olias. Comares, 4 29197, Barriada de Olias, Malaga</string>
+    <string name="location_six">Calle Feduchy, 19, 11005 Cádiz</string>
+    <string name="location_seven">Plaza de Silos, 511403, Jerez de la Frontera</string>
+    <string name="location_eight">Calle Arcos, 53, 11402, Jerez de la Frontera</string>
+    <string name="location_nine">Ctra de San Bernardo, 47359, Valbuena de Duero</string>
+    <string name="location_ten">Camino La Moya s/nº, La Seca </string>
+    <string name="location_eleven">Ctra Barbastro a Naval km 3.5, 22300 Barbastro</string>
+    <string name="location_twelve">Barrio de la Estación, 26200 Haro, La Rioja</string>
+    <string name="location_thirteen">Finca Can Marles, 43812, Can Ferrer de la cogullada</string>
+    <string name="location_fourteen">Ctra. de Gratallops a la Vilella Baixa, 43737 Gratallops</string>
+    <string name="location_fiveteen">Cami del Collet, 1, 43776 Capsanes, Tarragona</string>
+    <string name="location_sixteen">43786 Batea, Tarragona</string>
+
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.usuario.bestspanishwines.MainActivity">
+
+    <!-- NORTH -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/north"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:textAllCaps="true"
+            android:text="@string/region_north" />
+    </FrameLayout>
+
+    <!-- SOUTH -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/south"
+            style="@style/CategoryStyle"
+            android:textAllCaps="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/region_south" />
+    </FrameLayout>
+
+    <!-- CENTER -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/center"
+            style="@style/CategoryStyle"
+            android:textAllCaps="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/region_center" />
+    </FrameLayout>
+
+    <!-- SOUTHWEST -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/southwest"
+            style="@style/CategoryStyle"
+            android:textAllCaps="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/region_southwest" />
+    </FrameLayout>
+
+</LinearLayout>
