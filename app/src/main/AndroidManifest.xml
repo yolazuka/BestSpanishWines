@@ -18,16 +18,20 @@
         </activity>
         <activity
             android:name=".North"
-            android:label="@string/region_north" />
+            android:label="@string/north"
+            android:parentActivityName="com.example.usuario.bestspanishwines.MainActivity" />
         <activity
             android:name=".South"
-            android:label="@string/region_south" />
+            android:label="@string/south"
+            android:parentActivityName="com.example.usuario.bestspanishwines.MainActivity" />
         <activity
             android:name=".Center"
-            android:label="@string/region_center" />
+            android:label="@string/center"
+            android:parentActivityName="com.example.usuario.bestspanishwines.MainActivity" />
         <activity
             android:name=".SouthWest"
-            android:label="@string/region_southwest" />
+            android:label="@string/southwest"
+            android:parentActivityName="com.example.usuario.bestspanishwines.MainActivity" />
     </application>
 
 </manifest>

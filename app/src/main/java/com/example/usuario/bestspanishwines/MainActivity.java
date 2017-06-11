@@ -2,6 +2,7 @@
 package com.example.usuario.bestspanishwines;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
+
+        //We customize here the type of fond for the categories text Style //
+
+        Typeface typefaceCover = Typeface.createFromAsset(getAssets(), "fonts/Wine.ttf");
+
+        ((TextView) findViewById(R.id.north)).setTypeface(typefaceCover);
+        ((TextView) findViewById(R.id.south)).setTypeface(typefaceCover);
+        ((TextView) findViewById(R.id.center)).setTypeface(typefaceCover);
+        ((TextView) findViewById(R.id.southwest)).setTypeface(typefaceCover);
 
         // Find the View that shows the numbers category
         TextView north = (TextView) findViewById(R.id.north);
@@ -80,4 +90,5 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }

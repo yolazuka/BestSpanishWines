@@ -8,6 +8,13 @@
     <string name="region_center">Center</string>
     <string name="region_southwest">Southwest</string>
 
+    <!-- LABELS OF THE ACTIVITIES -->
+
+    <string name="north">North of Spain</string>
+    <string name="south">South of Spain</string>
+    <string name="center">Center of Spain</string>
+    <string name="southwest">Southwest of Spain</string>
+
     <!-- NAMES OF THE WINERIES -->
 
     <string name="winery_one">Gorrondona</string>
@@ -29,22 +36,22 @@
 
     <!-- NAMES OF THE WINE SPECIALITY -->
 
-    <string name="winename_one">Specialty Wine: \n Txacoli</string>
-    <string name="winename_two">Specialty Wine: \n Albariño</string>
-    <string name="winename_three">Specialty Wine: \n Ribeiro</string>
-    <string name="winename_four">Specialty Wine: \n Rias Baixas</string>
-    <string name="winename_five">Specialty Wine: \n Rebujito</string>
-    <string name="winename_six">Specialty Wine: \n Manzanilla</string>
-    <string name="winename_seven">Specialty Wine: \n Palo Cortado</string>
-    <string name="winename_eight">Specialty Wine: \n Jerez</string>
-    <string name="winename_nine">Specialty Wine: \n Ribera de Duero</string>
-    <string name="winename_ten">Specialty Wine: \n Rueda Verdejo</string>
-    <string name="winename_eleven">Specialty Wine: \n Somontano</string>
-    <string name="winename_twelve">Specialty Wine: \n Jumilla</string>
-    <string name="winename_thirteen">Specialty Wine: \n Cava</string>
-    <string name="winename_fourteen">Specialty Wine: \n Priorat</string>
-    <string name="winename_fiveteen">Specialty Wine: \n Monsant</string>
-    <string name="winename_sixteen">Specialty Wine: \n Terra Alta</string>
+    <string name="winename_one">Specialty Wine:Txacoli</string>
+    <string name="winename_two">Specialty Wine: Albariño</string>
+    <string name="winename_three">Specialty Wine: Ribeiro</string>
+    <string name="winename_four">Specialty Wine: Rias Baixas</string>
+    <string name="winename_five">Specialty Wine: Rebujito</string>
+    <string name="winename_six">Specialty Wine: Manzanilla</string>
+    <string name="winename_seven">Specialty Wine: Palo Cortado</string>
+    <string name="winename_eight">Specialty Wine: Jerez</string>
+    <string name="winename_nine">Specialty Wine: Ribera de Duero</string>
+    <string name="winename_ten">Specialty Wine: Rueda Verdejo</string>
+    <string name="winename_eleven">Specialty Wine: Somontano</string>
+    <string name="winename_twelve">Specialty Wine: Jumilla</string>
+    <string name="winename_thirteen">Specialty Wine: Cava</string>
+    <string name="winename_fourteen">Specialty Wine: Priorat</string>
+    <string name="winename_fiveteen">Specialty Wine: Monsant</string>
+    <string name="winename_sixteen">Specialty Wine: Terra Alta</string>
 
     <!-- DESCRIPTION OF THE WINERY  -->
 

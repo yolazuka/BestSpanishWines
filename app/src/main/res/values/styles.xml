@@ -11,12 +11,50 @@
     <!-- Style for the Region categories -->
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:background">@drawable/frame_categories</item>
+        <item name="android:layout_height">@dimen/category_item_height</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:padding">16dp</item>
-        <item name="android:textColor">@android:color/black</item>
-        <item name="android:textStyle">bold</item>
-        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/broken_white</item>
+        <item name="android:textSize">35sp</item>
     </style>
+
+    <!-- Style for the name of the Specialty Wine -->
+    <style name="SpecialtyWineStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/medium_brown</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Style for the Winery name -->
+    <style name="BodegaStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/medium_brown</item>
+        <item name="android:background">@color/dark_brown</item>
+
+    </style>
+
+    <!-- Style for the descripcion of the winery -->
+    <style name="DescriptionStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/medium_brown</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Style for the location of the winery -->
+    <style name="LocationStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textColor">@color/medium_brown</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
 
 </resources>

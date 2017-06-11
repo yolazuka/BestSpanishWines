@@ -1,58 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/cover"
     android:orientation="vertical"
     tools:context="com.example.usuario.bestspanishwines.MainActivity">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/medium_brown" />
 
     <!-- NORTH -->
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
         <TextView
             android:id="@+id/north"
             style="@style/CategoryStyle"
-            android:background="?android:attr/selectableItemBackground"
-            android:textAllCaps="true"
             android:text="@string/region_north" />
+
     </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/medium_brown" />
 
     <!-- SOUTH -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/south"
             style="@style/CategoryStyle"
-            android:textAllCaps="true"
-            android:background="?android:attr/selectableItemBackground"
             android:text="@string/region_south" />
+
     </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/medium_brown" />
 
     <!-- CENTER -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/center"
             style="@style/CategoryStyle"
-            android:textAllCaps="true"
-            android:background="?android:attr/selectableItemBackground"
             android:text="@string/region_center" />
+
     </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/medium_brown" />
 
     <!-- SOUTHWEST -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
             android:id="@+id/southwest"
             style="@style/CategoryStyle"
-            android:textAllCaps="true"
-            android:background="?android:attr/selectableItemBackground"
             android:text="@string/region_southwest" />
+
     </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/medium_brown" />
 
 </LinearLayout>

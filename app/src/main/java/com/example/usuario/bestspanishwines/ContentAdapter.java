@@ -42,7 +42,7 @@ public class ContentAdapter extends ArrayAdapter<Content> {
         View listItemView = convertView;
         if (listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+                    R.layout.content_list, parent, false);
         }
 
         // Get the {@link Content} object located at this position in the list
@@ -82,19 +82,12 @@ public class ContentAdapter extends ArrayAdapter<Content> {
         // Get the image and set it into the list view - into the view image -
         imageView.setImageResource(currentContent.getImageResourceId());
 
-        // Set the theme color for the list of Winery name and Wine name
-        View textContainerOne = listItemView.findViewById(R.id.wineryandwine_name_layout);
+        // Set the theme color for the list items
+        View textContainerOne = listItemView.findViewById(R.id.list_item_layout);
         // Find the color that the resource ID maps to
         int colorOne = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
         textContainerOne.setBackgroundColor(colorOne);
-
-        // Set the theme color for the list item for the description, area and location of the winery
-        View textContainerTwo = listItemView.findViewById(R.id.description_layout);
-        // Find the color that the resource ID maps to
-        int colorTwo = ContextCompat.getColor(getContext(), mColorResourceId);
-        // Set the background color of the text container View
-        textContainerTwo.setBackgroundColor(colorTwo);
 
         // Return the whole list item layout (containing 5 TextViews) so that it can be shown in
         // the ListView.

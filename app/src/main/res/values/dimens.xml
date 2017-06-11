@@ -3,5 +3,6 @@
 
     <!-- Height of each list item -->
     <dimen name="list_item_height">100dp</dimen>
+    <dimen name="category_item_height">70dp</dimen>
 
 </resources>
