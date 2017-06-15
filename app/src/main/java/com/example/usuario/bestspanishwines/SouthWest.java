@@ -18,13 +18,13 @@ public class SouthWest extends AppCompatActivity {
         // Create the list of the content //
         final ArrayList<Content> contents = new ArrayList<Content>();
         contents.add(new Content(getString(R.string.winery_thirteen), getString(R.string.winename_thirteen), getString(R.string.description_thirteen),
-                getString(R.string.area_thirteen), getString(R.string.location_thirteen), R.mipmap.ic_launcher));
+                getString(R.string.area_thirteen), getString(R.string.location_thirteen), R.drawable.thirteen));
         contents.add(new Content(getString(R.string.winery_fourteen), getString(R.string.winename_fourteen), getString(R.string.description_fourteen),
-                getString(R.string.area_fourteen), getString(R.string.location_fourteen), R.mipmap.ic_launcher));
+                getString(R.string.area_fourteen), getString(R.string.location_fourteen), R.drawable.fourteen));
         contents.add(new Content(getString(R.string.winery_fiveteen), getString(R.string.winename_fiveteen), getString(R.string.description_fiveteen),
-                getString(R.string.area_fiveteen), getString(R.string.location_fiveteen), R.mipmap.ic_launcher));
+                getString(R.string.area_fiveteen), getString(R.string.location_fiveteen), R.drawable.fiveteen));
         contents.add(new Content(getString(R.string.winery_sixteen), getString(R.string.winename_sixteen), getString(R.string.description_sixteen),
-                getString(R.string.area_sixteen), getString(R.string.location_sixteen), R.mipmap.ic_launcher));
+                getString(R.string.area_sixteen), getString(R.string.location_sixteen), R.drawable.sixteen));
 
 
         // Create a Content adapter, whose data source is a list of wineries and their caracteristics. The

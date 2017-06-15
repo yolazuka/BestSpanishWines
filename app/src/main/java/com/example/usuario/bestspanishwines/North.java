@@ -19,18 +19,18 @@ public class North extends AppCompatActivity {
 
         //It creates the Up navigation button through the activities //
 
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         // Create the list of the content //
         final ArrayList<Content> contents = new ArrayList<Content>();
         contents.add(new Content(getString(R.string.winery_one), getString(R.string.winename_one), getString(R.string.description_one),
-                getString(R.string.area_one), getString(R.string.location_one), R.mipmap.ic_launcher));
+                getString(R.string.area_one), getString(R.string.location_one), R.drawable.one));
         contents.add(new Content(getString(R.string.winery_two), getString(R.string.winename_two), getString(R.string.description_two),
-                getString(R.string.area_two), getString(R.string.location_two), R.mipmap.ic_launcher));
+                getString(R.string.area_two), getString(R.string.location_two), R.drawable.two));
         contents.add(new Content(getString(R.string.winery_three), getString(R.string.winename_three), getString(R.string.description_three),
-                getString(R.string.area_three), getString(R.string.location_three), R.mipmap.ic_launcher));
+                getString(R.string.area_three), getString(R.string.location_three), R.drawable.three));
         contents.add(new Content(getString(R.string.winery_four), getString(R.string.winename_four), getString(R.string.description_four),
-                getString(R.string.area_four), getString(R.string.location_four), R.mipmap.ic_launcher));
+                getString(R.string.area_four), getString(R.string.location_four), R.drawable.four));
 
         // Create a Content adapter, whose data source is a list of wineries and their caracteristics. The
         // adapter knows how to create list items for each item in the list.

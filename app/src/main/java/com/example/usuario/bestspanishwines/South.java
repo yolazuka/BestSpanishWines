@@ -18,13 +18,13 @@ public class South extends AppCompatActivity {
         // Create the list of the content //
         final ArrayList<Content> contents = new ArrayList<Content>();
         contents.add(new Content(getString(R.string.winery_five), getString(R.string.winename_five), getString(R.string.description_five),
-                getString(R.string.area_five), getString(R.string.location_five), R.mipmap.ic_launcher));
+                getString(R.string.area_five), getString(R.string.location_five), R.drawable.five));
         contents.add(new Content(getString(R.string.winery_six), getString(R.string.winename_six), getString(R.string.description_six),
-                getString(R.string.area_six), getString(R.string.location_six), R.mipmap.ic_launcher));
+                getString(R.string.area_six), getString(R.string.location_six), R.drawable.six));
         contents.add(new Content(getString(R.string.winery_seven), getString(R.string.winename_seven), getString(R.string.description_seven),
-                getString(R.string.area_seven), getString(R.string.location_seven), R.mipmap.ic_launcher));
+                getString(R.string.area_seven), getString(R.string.location_seven), R.drawable.seven));
         contents.add(new Content(getString(R.string.winery_eight), getString(R.string.winename_eight), getString(R.string.description_eight),
-                getString(R.string.area_eight), getString(R.string.location_eight), R.mipmap.ic_launcher));
+                getString(R.string.area_eight), getString(R.string.location_eight), R.drawable.eight));
 
 
         // Create a Content adapter, whose data source is a list of wineries and their caracteristics. The
