@@ -26,7 +26,6 @@ public class SouthWest extends AppCompatActivity {
         contents.add(new Content(getString(R.string.winery_sixteen), getString(R.string.winename_sixteen), getString(R.string.description_sixteen),
                 getString(R.string.area_sixteen), getString(R.string.location_sixteen), R.drawable.sixteen));
 
-
         // Create a Content adapter, whose data source is a list of wineries and their caracteristics. The
         // adapter knows how to create list items for each item in the list.
         ContentAdapter adapter = new ContentAdapter(this, contents, R.color.category_southwest);
@@ -40,7 +39,6 @@ public class SouthWest extends AppCompatActivity {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -50,7 +48,6 @@ public class SouthWest extends AppCompatActivity {
                 // Get the content object at the given position the user clicked on */
 
                 Content content = contents.get(position);
-
 
             }
 

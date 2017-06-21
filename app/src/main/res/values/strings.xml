@@ -55,22 +55,22 @@
 
     <!-- DESCRIPTION OF THE WINERY  -->
 
-    <string name="description_one">Best White wine Ever</string>
+    <string name="description_one">Best White wine Ever and an international reputation</string>
     <string name="description_two">Awards in several Wines, dont miss it</string>
     <string name="description_three">One of the oldest wineries in Spain. Pure tradition</string>
-    <string name="description_four">The grapes that grew next to the see,just a wine lover must</string>
+    <string name="description_four">The grapes that grew next to the see. Just a wine lover Must</string>
     <string name="description_five">This winery is famous by this fabulous type of wine</string>
     <string name="description_six">Specialist in really old and strong taste wines</string>
     <string name="description_seven">History and tradition have created these excellent wines</string>
     <string name="description_eight">Innovative wine creations, but still the old traditions essence</string>
-    <string name="description_nine">This special grape, Ribera del Duero is formidably transformed into amazing wine. Many international awards.</string>
-    <string name="description_ten">Framed in a wonderful landspace, this winery is full of charm and history</string>
-    <string name="description_eleven">vineyards growing on the Pirynees Slopes, wonderful scene that you can not miss</string>
+    <string name="description_nine">This special grape is formidably transformed into amazing wine</string>
+    <string name="description_ten">Framed in a wonderful landscape, its full of charm and history</string>
+    <string name="description_eleven">Vineyards growing on the Pirynees Slopes, wonderful</string>
     <string name="description_twelve">A high temperatures contrast gives these grapes a unique bouquet</string>
-    <string name="description_thirteen">Sparkly and golden wine into the Catalonian traditions. Just Luxury</string>
-    <string name="description_fourteen">One of the best and internationally recognized red wine in Spain</string>
-    <string name="description_fiveteen">Almost legendary winery, with awesome awarded red wine and incredible landspaces</string>
-    <string name="description_sixteen">Simply wonderful and delicious wine, moderate price but excellent quality. It is worth to visit it</string>
+    <string name="description_thirteen">Sparkly and golden wine into the Catalonian traditions</string>
+    <string name="description_fourteen">One of the best and internationally recognized wines</string>
+    <string name="description_fiveteen">Legendary winery, with awesome awarded red wine</string>
+    <string name="description_sixteen">Simply wonderful and delicious wine, excellent quality</string>
 
     <!-- GEOGRAPHICAL AREAS OF THE WINERIES -->
 
@@ -93,7 +93,7 @@
 
     <!-- WINERY LOCATIONS ( ADDRESSES ) -->
 
-    <string name="location_one">Gibelorratzagako San Pelaio, 1, Caserio Gorrondona 48130 Bakio, Bizkaia</string>
+    <string name="location_one">Gibelorratzagako San Pelaio, 1, Caserio Gorrondona 48130 Bakio</string>
     <string name="location_two">Burgans 91,36633 Vilariño, Cambados, Pontevedra</string>
     <string name="location_three">LG Razamonde, 32459 Cenlle, Ourense</string>
     <string name="location_four">Arosa, 16, 36637 Meis, Pontevedra</string>
@@ -104,7 +104,7 @@
     <string name="location_nine">Ctra de San Bernardo, 47359, Valbuena de Duero</string>
     <string name="location_ten">Camino La Moya s/nº, La Seca </string>
     <string name="location_eleven">Ctra Barbastro a Naval km 3.5, 22300 Barbastro</string>
-    <string name="location_twelve">Barrio de la Estación, 26200 Haro, La Rioja</string>
+    <string name="location_twelve">Barrio de la Estación, 26200 Haro</string>
     <string name="location_thirteen">Finca Can Marles, 43812, Can Ferrer de la cogullada</string>
     <string name="location_fourteen">Ctra. de Gratallops a la Vilella Baixa, 43737 Gratallops</string>
     <string name="location_fiveteen">Cami del Collet, 1, 43776 Capsanes, Tarragona</string>

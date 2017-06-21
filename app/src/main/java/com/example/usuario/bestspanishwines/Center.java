@@ -39,7 +39,6 @@ public class Center extends AppCompatActivity {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
-
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
@@ -49,7 +48,6 @@ public class Center extends AppCompatActivity {
                 // Get the content object at the given position the user clicked on */
 
                 Content content = contents.get(position);
-
 
             }
 

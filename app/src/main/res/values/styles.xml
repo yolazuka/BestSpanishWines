@@ -43,8 +43,9 @@
     <style name="DescriptionStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingRight">4dp</item>
         <item name="android:textColor">@color/medium_brown</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
     <!-- Style for the location of the winery -->
@@ -53,8 +54,7 @@
         <item name="android:gravity">center_vertical</item>
         <item name="android:textStyle">italic</item>
         <item name="android:textColor">@color/medium_brown</item>
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">14sp</item>
     </style>
-
 
 </resources>

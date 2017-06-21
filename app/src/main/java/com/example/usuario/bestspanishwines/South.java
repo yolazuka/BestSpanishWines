@@ -26,7 +26,6 @@ public class South extends AppCompatActivity {
         contents.add(new Content(getString(R.string.winery_eight), getString(R.string.winename_eight), getString(R.string.description_eight),
                 getString(R.string.area_eight), getString(R.string.location_eight), R.drawable.eight));
 
-
         // Create a Content adapter, whose data source is a list of wineries and their caracteristics. The
         // adapter knows how to create list items for each item in the list.
         ContentAdapter adapter = new ContentAdapter(this, contents, R.color.category_south);
