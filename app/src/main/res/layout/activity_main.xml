@@ -7,34 +7,34 @@
     android:orientation="vertical"
     tools:context="com.example.usuario.bestspanishwines.MainActivity">
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@color/medium_brown" />
-
     <!-- NORTH -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp">
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/medium_brown" />
+
         <TextView
             android:id="@+id/north"
             style="@style/CategoryStyle"
-            android:layout_marginBottom="4dp"
+            android:layout_marginBottom="10dp"
             android:text="@string/region_north" />
 
     </FrameLayout>
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@color/medium_brown" />
 
     <!-- SOUTH -->
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/medium_brown" />
 
         <TextView
             android:id="@+id/south"
@@ -43,11 +43,6 @@
             android:text="@string/region_south" />
 
     </FrameLayout>
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@color/medium_brown" />
 
     <!-- CENTER -->
     <FrameLayout
@@ -62,11 +57,6 @@
 
     </FrameLayout>
 
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@color/medium_brown" />
-
     <!-- SOUTHWEST -->
     <FrameLayout
         android:layout_width="match_parent"
@@ -78,10 +68,5 @@
             android:text="@string/region_southwest" />
 
     </FrameLayout>
-
-    <View
-        android:layout_width="fill_parent"
-        android:layout_height="1dp"
-        android:background="@color/medium_brown" />
 
 </LinearLayout>

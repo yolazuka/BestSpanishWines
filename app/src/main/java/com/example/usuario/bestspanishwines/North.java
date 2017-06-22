@@ -4,8 +4,6 @@ import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -45,23 +43,9 @@ public class North extends AppCompatActivity {
         // {@link ListView} will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-            @Override
-
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-
-                // Get the content object at the given position the user clicked on */
-
-                Content content = contents.get(position);
-
-            }
-
-        });
-
     }
 
-    // when the user presses it, the current activity receives a call to onOptionsItemSelected() //
+    //  TO SET UP THE UP NAVIGATION ARROW when the user presses it, the current activity receives a call to onOptionsItemSelected() //
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {

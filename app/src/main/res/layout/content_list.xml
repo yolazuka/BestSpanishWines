@@ -41,7 +41,6 @@
             style="@style/BodegaStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="1"
             android:gravity="bottom"
             android:textAppearance="?android:textAppearanceMedium"
@@ -52,7 +51,6 @@
             style="@style/SpecialtyWineStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="1"
             android:gravity="top"
             android:textAppearance="?android:textAppearanceMedium" />
@@ -62,7 +60,6 @@
             style="@style/DescriptionStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="1"
             android:gravity="bottom" />
 
@@ -71,7 +68,6 @@
             style="@style/LocationStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="2dp"
             android:layout_weight="1"
             android:gravity="top" />
 
@@ -80,7 +76,6 @@
             style="@style/DescriptionStyle"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:gravity="top"
             android:textStyle="bold" />
